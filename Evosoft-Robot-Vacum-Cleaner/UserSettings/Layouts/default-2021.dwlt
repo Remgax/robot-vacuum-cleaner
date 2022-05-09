@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 88
+  controlID: 22
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 89
+  controlID: 23
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 90
+  controlID: 24
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Robot/StateMachine
+    - Assets/Robot/Entities
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Robot/StateMachine
+  - Assets/Robot/Entities
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Github\evosoft-hungary-robot-vacuum-cleaner\Evosoft-Robot-Vacum-Cleaner
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4ead0000
-    m_LastClickedID: 44366
-    m_ExpandedIDs: 00000000b0690000ea7800000679000010790000e093000000ca9a3b
+    m_SelectedIDs: 12640000
+    m_LastClickedID: 25618
+    m_ExpandedIDs: 00000000d2630000d4630000d6630000d86300000064000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -389,7 +389,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000d2630000d4630000d6630000d8630000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 20b4ffffcab8ffff96c0ffff54c8ffff3ed5ffffe0f6ffff32fbffffe48f0000f8900000b29e0000
+      m_SelectedIDs: 22f9ffff
+      m_LastClickedID: -1758
+      m_ExpandedIDs: 16fbffff9c5d0000d45d0000225e0000f05e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -768,9 +768,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 23.283117, y: 0.9297658, z: 6.28651}
+    m_Target: {x: 24.3099, y: 0.40649614, z: 10.460585}
     speed: 2
-    m_Value: {x: 23.283117, y: 0.9297658, z: 6.28651}
+    m_Value: {x: 24.3099, y: 0.40649614, z: 10.460585}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -817,20 +817,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0030213725, y: 0.99599355, z: -0.08116307, w: -0.037063915}
+    m_Target: {x: -0.07423986, y: -0.7135346, z: 0.07650587, w: -0.6924421}
     speed: 2
-    m_Value: {x: -0.0030214125, y: 0.9960068, z: -0.08116415, w: -0.037064407}
+    m_Value: {x: -0.07771418, y: -0.71007127, z: 0.0793681, w: -0.6953129}
   m_Size:
-    m_Target: 2.5772078
+    m_Target: 2.3166978
     speed: 2
-    m_Value: 2.5772078
+    m_Value: 2.2169356
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.4202898
-    m_SpeedNormalized: 0.70999986
+    m_Speed: 1.6601695
+    m_SpeedNormalized: 0.82999974
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -899,8 +899,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -734
     m_HBaseRangeMax: 734
-    m_VBaseRangeMin: -269
-    m_VBaseRangeMax: 269
+    m_VBaseRangeMin: -279.5
+    m_VBaseRangeMax: 279.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -917,11 +917,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1468
-      height: 538
+      height: 559
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 734, y: 269}
+    m_Translation: {x: 734, y: 279.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -929,9 +929,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -734
-      y: -269
+      y: -279.5
       width: 1468
-      height: 538
+      height: 559
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1468, y: 559}
