@@ -1,4 +1,4 @@
-# hungary-robot-vacuum-cleaner
+# robot-vacuum-cleaner
 
 Kedves Jelentkező!
 
