@@ -1,4 +1,4 @@
-# evosoft-hungary-robot-vacuum-cleaner
+# hungary-robot-vacuum-cleaner
 
 Kedves Jelentkező!
 
@@ -24,6 +24,6 @@ Technikai keretek:
 
 Nemsokára találkozunk! Addig is jó felkészülést!
 
-Üdvözlettel: evosoft
+
 
  
